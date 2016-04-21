@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: fec57cf8c9b1f974aa2c8e4bc853fecc
-timeCreated: 1460766176
+timeCreated: 1461108157
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Bricks_TopLeft
+    21300002: Bricks_Middle
+    21300004: Bricks_TopRight
+    21300006: Bricks_MiddleLeft
+    21300008: Bricks_MiddleRight
+    21300010: Bricks_BottomLeft
+    21300012: Bricks_BottomRight
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +45,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +56,170 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Bricks_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 277.6
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -139, y: 42.5}
+        - {x: -137, y: 41.5}
+        - {x: -136, y: 24.5}
+        - {x: -134, y: 8.5}
+        - {x: -138, y: 6.5}
+        - {x: -138, y: -15.5}
+        - {x: -136, y: -17.5}
+        - {x: -136, y: -35.5}
+        - {x: -134, y: -37.5}
+        - {x: -134, y: -51.5}
+        - {x: -138, y: -53.5}
+        - {x: -138, y: -66.5}
+        - {x: 139, y: -66.5}
+        - {x: 139, y: 62.5}
+        - {x: -139, y: 62.5}
+    - name: Bricks_Middle
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 832
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 416, y: -199.5}
+        - {x: 416, y: 195.5}
+        - {x: -416, y: 195.5}
+        - {x: -416, y: -199.5}
+    - name: Bricks_TopRight
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 266
+        width: 277.59998
+        height: 133
+      alignment: 0
+      pivot: {x: 0.50000024, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 136, y: -32.5}
+        - {x: 136, y: -17.5}
+        - {x: 138, y: -15.5}
+        - {x: 138, y: 3.5}
+        - {x: 139, y: 4.5}
+        - {x: 139, y: 25.5}
+        - {x: 136, y: 27.5}
+        - {x: 139, y: 40.5}
+        - {x: 139, y: 62.5}
+        - {x: -139, y: 62.5}
+        - {x: -139, y: -66.5}
+        - {x: 138, y: -66.5}
+        - {x: 138, y: -56.5}
+        - {x: 139, y: -55.5}
+        - {x: 139, y: -34.5}
+    - name: Bricks_MiddleLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 277.6
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -138, y: 66.5}
+        - {x: -138, y: 57.5}
+        - {x: -136, y: 55.5}
+        - {x: -136, y: 37.5}
+        - {x: -134, y: 21.5}
+        - {x: -138, y: 19.5}
+        - {x: -138, y: -2.5}
+        - {x: -136, y: -4.5}
+        - {x: -136, y: -22.5}
+        - {x: -134, y: -38.5}
+        - {x: -138, y: -40.5}
+        - {x: -138, y: -62.5}
+        - {x: -136, y: -66.5}
+        - {x: 139, y: -66.5}
+        - {x: 139, y: 66.5}
+    - name: Bricks_MiddleRight
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 133
+        width: 277.59998
+        height: 133
+      alignment: 0
+      pivot: {x: 0.50000024, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 136, y: -19.5}
+        - {x: 136, y: -4.5}
+        - {x: 138, y: -2.5}
+        - {x: 139, y: 17.5}
+        - {x: 139, y: 38.5}
+        - {x: 136, y: 40.5}
+        - {x: 136, y: 55.5}
+        - {x: 138, y: 57.5}
+        - {x: 138, y: 66.5}
+        - {x: -139, y: 66.5}
+        - {x: -139, y: -66.5}
+        - {x: 136, y: -66.5}
+        - {x: 138, y: -62.5}
+        - {x: 139, y: -42.5}
+        - {x: 139, y: -21.5}
+    - name: Bricks_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 277.6
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 139, y: 66.5}
+        - {x: -136, y: 66.5}
+        - {x: -136, y: 50.5}
+        - {x: -134, y: 34.5}
+        - {x: -138, y: 32.5}
+        - {x: -138, y: 10.5}
+        - {x: -136, y: -9.5}
+        - {x: -134, y: -25.5}
+        - {x: -138, y: -27.5}
+        - {x: -138, y: -53.5}
+        - {x: -134, y: -66.5}
+        - {x: 139, y: -66.5}
+    - name: Bricks_BottomRight
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 0
+        width: 277.59998
+        height: 133
+      alignment: 0
+      pivot: {x: 0.50000024, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 138, y: -50.5}
+        - {x: 139, y: -29.5}
+        - {x: 139, y: -8.5}
+        - {x: 136, y: -6.5}
+        - {x: 139, y: 10.5}
+        - {x: 139, y: 54.5}
+        - {x: 136, y: 66.5}
+        - {x: -139, y: 66.5}
+        - {x: -139, y: -66.5}
+        - {x: 135, y: -66.5}
     outline: []
   spritePackingTag: 
   userData: 
